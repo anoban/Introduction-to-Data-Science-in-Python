@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# ignore large .csv files
+week-3/datasets/college_scorecard/*.csv
+
 # Distribution / packaging
 .Python
 build/
